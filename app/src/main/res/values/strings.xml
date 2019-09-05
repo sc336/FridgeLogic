@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FridgeLogic</string>
+    <string name="foo">foo</string>
+    <string name="bar">bar</string>
+    <string-array name="words">
+        <item>"I"</item>
+        <item>"am"</item>
+        <item>"the"</item>
+        <item>"very"</item>
+        <item>"model"</item>
+        <item>"of"</item>
+        <item>"a"</item>
+        <item>"modern"</item>
+        <item>"Major"</item>
+        <item>"general"</item>
+    </string-array>
+    <string name="title_activity_vote">VoteActivity</string>
+</resources>

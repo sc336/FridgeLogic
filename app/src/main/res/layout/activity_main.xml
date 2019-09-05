@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.piduck.fridgelogic.MainActivity">
+
+    <com.example.piduck.fridgelogic.FridgeLayout
+        android:id="@+id/fridge"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"></com.example.piduck.fridgelogic.FridgeLayout>
+<!--
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="Submit"/>
+
+    <Button
+        android:id="@+id/showAnswers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Review"/>
+
+    <Button
+        android:id="@+id/testLobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:text="Lobby"/>
+-->
+
+    <!--Consider: android:gravity="center_horizontal"-->
+    <FrameLayout
+        android:id="@+id/answerFrame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_gravity="center"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress"/>
+        <com.example.piduck.fridgelogic.AnswerBar
+            android:id="@+id/answerBar"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@color/colorTransparent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textSize="@dimen/magnet_font_size"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+        </com.example.piduck.fridgelogic.AnswerBar>
+    </FrameLayout>
+</RelativeLayout>

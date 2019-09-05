@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="topicJoinIndex">
+        <item>@array/topicFilePairGS</item>
+        <item>@array/topicFilePairAV</item>
+        <item>@array/topicFilePairSW</item>
+    </array>
+
+    <array name="topicFilePairGS">
+        <item name="topicList">@array/topicListGS</item>
+        <item name="fileList">@array/wordFilesGS</item>
+    </array>
+    <string-array name="topicListGS">
+        <item>He hardly ever...</item>
+        <item>Society offenders</item>
+        <item>For he is...</item>
+        <item>And now I am the ruler of the Queen\'s Navee!</item>
+        <item>When a felon\'s not engaged in his employment...</item>
+        <item>It is my very humane endeavour to...</item>
+    </string-array>
+    <integer-array name="wordFilesGS">
+        <item>@raw/mgen</item>
+        <item>@raw/qnavee</item>
+    </integer-array>
+
+    <array name="topicFilePairAV">
+        <item name="topicList">@array/topicListAV</item>
+        <item name="fileList">@array/wordFilesAV</item>
+    </array>
+    <string-array name="topicListAV">
+        <item>The trouble with Sonder is...</item>
+        <item>Things not to do when you\'re on the run from the Council</item>
+        <item>If only they\'d stop trying to kill me...</item>
+    </string-array>
+    <integer-array name="wordFilesAV">
+        <item>@raw/av8</item>
+    </integer-array>
+
+    <array name="topicFilePairSW">
+        <item name="topicList">@array/topicListSW</item>
+        <item name="fileList">@array/wordFilesSW</item>
+    </array>
+    <string-array name="topicListSW">
+        <item>I\'ve got a bad feeling about this...</item>
+        <item>...is why you fail</item>
+        <item>Strike me down, and...</item>
+    </string-array>
+    <integer-array name="wordFilesSW">
+        <item>@raw/swnewhopeo</item>
+    </integer-array>
+
+</resources>

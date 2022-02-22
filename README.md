@@ -1,4 +1,4 @@
-#FridgeLogic
+# FridgeLogic
 
 This incomplete game involves dragging randomly selected words into an amusing order.  Players compete to make the most amusing lines (as judged by each other) in a short time limit.
 
